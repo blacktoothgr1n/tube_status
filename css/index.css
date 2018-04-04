@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background: url(".././images/tube_01.jpg") no-repeat center center fixed;
+    font-family: "Arial Black";
+}
+
+.global_error {
+    text-align: center;
+    background: url(".././images/error_01.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.status_good {
+    background-color: green;
+    color: lightgray;
+    text-align: center;
+}
+
+.status_bad {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#line_status {
+    display:inline-block;
+    text-align:center;
+}
+
+#line_status_tbl {
+    border: 2;
+    background-color: black;
+    color: black;
+    font-size: 40px;
+}
+
+#line_status_tbl td {
+    padding: 0 15px 0 15px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#header_row {
+    color: white;
+    text-align: center;
+}
+
+#header_pic {
+    width: 100px;
+    height: 100px;
+}
+
+#last_refresh_time {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#warning_panel {
+    color: red;
+    font-size: 40px;
+    white-space: pre-wrap;
+}
+
+.bakerloo {
+    background-color: #b26300;
+}
+
+.central {
+    background-color: #dc241f;
+}
+
+.circle {
+    background-color: #ffd329;
+}
+
+.district {
+    background-color: #007d32;
+}
+
+.hammersmith-city {
+    background-color: #f4a9be;
+}
+
+.jubilee {
+    background-color: #a1a5a7;
+}
+
+.metropolitan {
+    background-color: #9b0058;
+}
+
+.northern {
+    background-color: #000000;
+    color: white;
+}
+
+.piccadilly {
+    background-color: #0019a8;
+}
+
+.victoria {
+    background-color: #0098d8;
+}
+
+.waterloo-city {
+    background-color: #93ceba;
+}

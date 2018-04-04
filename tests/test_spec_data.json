@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Jasmine_Unit_Tests",
+        "test_type": "unit",
+        "url": "/tests/SpecRunner.html",
+        "wait_text": "jasmine-overall-result",
+        "wait_type": "class",
+        "full_path": "/vagrant/html/tests/test_results/{{uuid}}_{{hostname}}_unit_tests_render.png",
+        "timeout": 30
+    },
+    {
+        "name": "Tube_Status_Render",
+        "test_type": "always",
+        "url": "",
+        "wait_text": "waterloo-city_status",
+        "wait_type": "id",
+        "full_path": "/vagrant/html/tests/test_results/{{uuid}}_{{hostname}}_tube_status_render.png",
+        "timeout": 10
+    }
+]

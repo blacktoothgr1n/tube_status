@@ -1,0 +1,27 @@
+{
+  "name": "automation_logic",
+  "version": "1.2.0",
+  "description": "Tube Status",
+  "main": "index.html",
+  "directories": {
+    "test": "jasmine /vagrant/html/spec/tube_status_spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.37.0",
+    "eslint": "^4.19.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.1.0",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^3.3.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Phil Milroy",
+  "license": "ISC"
+}
