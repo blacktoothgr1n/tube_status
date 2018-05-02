@@ -22,6 +22,6 @@
   "scripts": {
     "test": "karma start"
   },
-  "author": "Phil Milroy",
+  "author": "Blacktooth Grin",
   "license": "ISC"
 }
