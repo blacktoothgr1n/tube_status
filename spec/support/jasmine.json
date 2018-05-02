@@ -8,9 +8,6 @@
       "../lib/*.js",
       "../node_modules/jasmine-jquery/lib/jasmine-jquery.js",
       "../src/*.js",
-      "lib/*.js",
-      "node_modules/jasmine-jquery/lib/jasmine-jquery.js",
-      "src/*.js"
   ],
   "stopSpecOnExpectationFailure": false,
   "random": true
